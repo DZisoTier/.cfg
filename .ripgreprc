@@ -1,0 +1,11 @@
+# Search in hidden files
+--hidden
+--ignore-case
+--glob=!**/*node_modules/*
+--glob=!**/*.git/*
+--glob=!**/*dist/*
+--glob=!**/*vendor/*
+--glob=!**/Caches/Yarn/*
+--glob=!**/.vscode/extensions/*
+--glob=!**/.npm/*
+
