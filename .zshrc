@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/davidzisowsky/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 export DEFAULT_USER='davidzisowsky'
 export EDITOR='nvim'
 
