@@ -103,6 +103,9 @@ function tier_sandbox() {
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+alias vim=nvim
+alias vi=nvim
+export DOCKERHOST=zubr
+export JUMP_HOST=zubr
 # ripgrep
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
