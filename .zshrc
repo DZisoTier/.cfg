@@ -24,7 +24,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colorize zsh-completions zsh-autosuggestions terraform aws kubectl helm ripgrep git-auto-fetch z git extract yarn docker docker-compose)
+plugins=(fzf zsh-interactive-cd safe-paste zsh-syntax-highlighting colorize zsh-completions zsh-autosuggestions terraform aws kubectl helm ripgrep git-auto-fetch z git extract yarn docker docker-compose)
 # vi-mode
 # plugins=(git extract terraform kubectl nvm node yarn npm vscode docker docker-compose)
 
@@ -47,7 +47,6 @@ source $ZSH/oh-my-zsh.sh
 alias ohmyzsh="vim ~/.zshrc && source ~/.zshrc"
 alias balena-engine=docker
 alias be=docker
-alias fpush=git add . && git stash && git pull && git push && git stash pop
 alias resetToRemote="git reset --hard @{u} && git pull"
 
 export AWS_DEFAULT_REGION="eu-central-1"
