@@ -1,0 +1,10 @@
+# .cfg
+
+## Setup
+
+```
+git init --bare $HOME/.cfg
+alias gitc='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+gitc config --local status.showUntrackedFiles no
+```
+[source](https://www.atlassian.com/git/tutorials/dotfiles)
