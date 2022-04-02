@@ -19,6 +19,13 @@ font:
   normal:
     family: "MesloLGS NF"
 
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
 # # Sample Font configuration for font: Monoid.
 # # Feel free to use different font configuration family & face for each sections
 # font:
